@@ -2,13 +2,10 @@ package htmlwayfind
 
 import (
 	"bytes"
-	_ "fmt"
 	"io"
 	"io/ioutil"
-	_ "ioutil"
 	"log"
 	"os"
-	_ "os"
 	"path/filepath"
 
 	"golang.org/x/net/html"
